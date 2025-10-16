@@ -1,0 +1,2509 @@
+fileFormatVersion: 2
+guid: 6b5bcaece014c8648981d6f1465ea104
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1189800724734136189
+    second: spacepolice_red fixed_0
+  - first:
+      213: -7976805935948435981
+    second: spacepolice_red fixed_1
+  - first:
+      213: -4177647639166293204
+    second: spacepolice_red fixed_2
+  - first:
+      213: -519918817782360146
+    second: spacepolice_red fixed_3
+  - first:
+      213: -33883341612428657
+    second: spacepolice_red fixed_4
+  - first:
+      213: 527566978032812772
+    second: spacepolice_red fixed_5
+  - first:
+      213: 1957970726673616081
+    second: spacepolice_red fixed_6
+  - first:
+      213: 5943966014433139085
+    second: spacepolice_red fixed_7
+  - first:
+      213: 3507857283277121823
+    second: spacepolice_red fixed_8
+  - first:
+      213: -68579184963631256
+    second: spacepolice_red fixed_9
+  - first:
+      213: 1444254188350192825
+    second: spacepolice_red fixed_10
+  - first:
+      213: 8432102542286319279
+    second: spacepolice_red fixed_11
+  - first:
+      213: -4291243697564504586
+    second: spacepolice_red fixed_12
+  - first:
+      213: 8033304969680075407
+    second: spacepolice_red fixed_13
+  - first:
+      213: -4889641556482160964
+    second: spacepolice_red fixed_14
+  - first:
+      213: -5966651760396909011
+    second: spacepolice_red fixed_15
+  - first:
+      213: 4974462207673574297
+    second: spacepolice_red fixed_16
+  - first:
+      213: -845782183363511268
+    second: spacepolice_red fixed_17
+  - first:
+      213: -7869316197512513525
+    second: spacepolice_red fixed_18
+  - first:
+      213: -9003713449043700848
+    second: spacepolice_red fixed_19
+  - first:
+      213: 6393280965443441832
+    second: spacepolice_red fixed_20
+  - first:
+      213: 323935908402332430
+    second: spacepolice_red fixed_21
+  - first:
+      213: 5572753699428026775
+    second: spacepolice_red fixed_22
+  - first:
+      213: 9082958771881370072
+    second: spacepolice_red fixed_23
+  - first:
+      213: 5294139318107165007
+    second: spacepolice_red fixed_24
+  - first:
+      213: 94598395748037451
+    second: spacepolice_red fixed_25
+  - first:
+      213: 5756485433006470725
+    second: spacepolice_red fixed_26
+  - first:
+      213: -4740017275740452080
+    second: spacepolice_red fixed_27
+  - first:
+      213: -6065180539323628560
+    second: spacepolice_red fixed_28
+  - first:
+      213: 2037240082136261439
+    second: spacepolice_red fixed_29
+  - first:
+      213: -1985003151388091196
+    second: spacepolice_red fixed_30
+  - first:
+      213: -2911658743379630519
+    second: spacepolice_red fixed_31
+  - first:
+      213: 8105177047333715804
+    second: spacepolice_red fixed_32
+  - first:
+      213: 5142383132336393001
+    second: spacepolice_red fixed_33
+  - first:
+      213: 4792385553992254802
+    second: spacepolice_red fixed_34
+  - first:
+      213: -1057516808456600929
+    second: spacepolice_red fixed_35
+  - first:
+      213: -4070739072265988732
+    second: spacepolice_red fixed_36
+  - first:
+      213: 4514478782499704687
+    second: spacepolice_red fixed_37
+  - first:
+      213: 5179212340889776751
+    second: spacepolice_red fixed_38
+  - first:
+      213: 8502329792021936280
+    second: spacepolice_red fixed_39
+  - first:
+      213: 263822010254622541
+    second: spacepolice_red fixed_40
+  - first:
+      213: 1640112051150409467
+    second: spacepolice_red fixed_41
+  - first:
+      213: 6228752538264661883
+    second: spacepolice_red fixed_42
+  - first:
+      213: 4864642639873515193
+    second: spacepolice_red fixed_43
+  - first:
+      213: 3439315108957372373
+    second: spacepolice_red fixed_44
+  - first:
+      213: 5979210832573734365
+    second: spacepolice_red fixed_45
+  - first:
+      213: 5869215923855263000
+    second: spacepolice_red fixed_46
+  - first:
+      213: 203735154239699923
+    second: spacepolice_red fixed_47
+  - first:
+      213: -5123848396083654319
+    second: spacepolice_red fixed_48
+  - first:
+      213: -8324772260002513749
+    second: spacepolice_red fixed_49
+  - first:
+      213: -4558816229242882908
+    second: spacepolice_red fixed_50
+  - first:
+      213: 6241634053403022617
+    second: spacepolice_red fixed_51
+  - first:
+      213: -9197154020949543038
+    second: spacepolice_red fixed_52
+  - first:
+      213: 1880497574878765275
+    second: spacepolice_red fixed_53
+  - first:
+      213: -869769798149721123
+    second: spacepolice_red fixed_54
+  - first:
+      213: -6282669843444849558
+    second: spacepolice_red fixed_55
+  - first:
+      213: -548228969498606516
+    second: spacepolice_red fixed_56
+  - first:
+      213: -4236866384747377327
+    second: spacepolice_red fixed_57
+  - first:
+      213: 6857725937087645548
+    second: spacepolice_red fixed_58
+  - first:
+      213: -1482418892460813707
+    second: spacepolice_red fixed_59
+  - first:
+      213: 485277661793098989
+    second: spacepolice_red fixed_60
+  - first:
+      213: -8172164822418099593
+    second: spacepolice_red fixed_61
+  - first:
+      213: -5910342670859755325
+    second: spacepolice_red fixed_62
+  - first:
+      213: -296479032946159923
+    second: spacepolice_red fixed_63
+  - first:
+      213: 1211356867778438358
+    second: spacepolice_red fixed_64
+  - first:
+      213: 6279302283376800533
+    second: spacepolice_red fixed_65
+  - first:
+      213: -1995440774529612816
+    second: spacepolice_red fixed_66
+  - first:
+      213: -4865220311739071752
+    second: spacepolice_red fixed_67
+  - first:
+      213: 5444991433704281165
+    second: spacepolice_red fixed_68
+  - first:
+      213: -1793503301133508907
+    second: spacepolice_red fixed_69
+  - first:
+      213: -8088385653187034092
+    second: spacepolice_red fixed_70
+  - first:
+      213: -4448513436540713975
+    second: spacepolice_red fixed_71
+  - first:
+      213: 2988129916561402718
+    second: spacepolice_red fixed_72
+  - first:
+      213: -721033643451302461
+    second: spacepolice_red fixed_73
+  - first:
+      213: 7656024286330225871
+    second: spacepolice_red fixed_74
+  - first:
+      213: 6785911452493268748
+    second: spacepolice_red fixed_75
+  - first:
+      213: 3679057114131710851
+    second: spacepolice_red fixed_76
+  - first:
+      213: 6281955344631091403
+    second: spacepolice_red fixed_77
+  - first:
+      213: 3980721063362424609
+    second: spacepolice_red fixed_78
+  - first:
+      213: 7225586084829855225
+    second: spacepolice_red fixed_79
+  - first:
+      213: 8815922082865075658
+    second: spacepolice_red fixed_80
+  - first:
+      213: 1412213052535161823
+    second: spacepolice_red fixed_81
+  - first:
+      213: 924981066314365813
+    second: spacepolice_red fixed_82
+  - first:
+      213: -4168824825069937446
+    second: spacepolice_red fixed_83
+  - first:
+      213: 7186827298915388035
+    second: spacepolice_red fixed_84
+  - first:
+      213: 7416059279280096005
+    second: spacepolice_red fixed_85
+  - first:
+      213: 8432079982737075474
+    second: spacepolice_red fixed_86
+  - first:
+      213: -3877282615232122581
+    second: spacepolice_red fixed_87
+  - first:
+      213: 4624989686992119706
+    second: spacepolice_red fixed_88
+  - first:
+      213: 408894468265867075
+    second: spacepolice_red fixed_89
+  - first:
+      213: 3202246173523788930
+    second: spacepolice_red fixed_90
+  - first:
+      213: -2109104078479894866
+    second: spacepolice_red fixed_91
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spacepolice_red fixed_0
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 519
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fc74f8475038010800000000000000
+      internalID: 1189800724734136189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_1
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 519
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fde091a341bc4190800000000000000
+      internalID: -7976805935948435981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 519
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b6eb63b930606c0800000000000000
+      internalID: -4177647639166293204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 519
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea79a020790e8c8f0800000000000000
+      internalID: -519918817782360146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 464
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f825363c74f978ff0800000000000000
+      internalID: -33883341612428657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_5
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 464
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e24fd01f5b425700800000000000000
+      internalID: 527566978032812772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_6
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 464
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc8efb800c1c2b10800000000000000
+      internalID: 1957970726673616081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_7
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 464
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89184ff8953d7250800000000000000
+      internalID: 5943966014433139085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_8
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 464
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19ef7c1d996ea030800000000000000
+      internalID: 3507857283277121823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_9
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 464
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867c149389b5c0ff0800000000000000
+      internalID: -68579184963631256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_10
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 464
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bcbbf548850b0410800000000000000
+      internalID: 1444254188350192825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_11
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 464
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faee4a64698d40570800000000000000
+      internalID: 8432102542286319279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_12
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 450
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fda802d7907274c0800000000000000
+      internalID: -4291243697564504586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_13
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 450
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a3922ce480c7f60800000000000000
+      internalID: 8033304969680075407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_14
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 450
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb684ea29e0842cb0800000000000000
+      internalID: -4889641556482160964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_15
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 450
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d26451b26d1323da0800000000000000
+      internalID: -5966651760396909011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_16
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 450
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9932df4a507d80540800000000000000
+      internalID: 4974462207673574297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_17
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 450
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c734bd59d2344f0800000000000000
+      internalID: -845782183363511268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 450
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08f90e9c929ac290800000000000000
+      internalID: -7869316197512513525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_19
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 450
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093d75262526c0380800000000000000
+      internalID: -9003713449043700848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_20
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 450
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4d58e3a2f79b850800000000000000
+      internalID: 6393280965443441832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_21
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 447
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e03805e0ef9de7400800000000000000
+      internalID: 323935908402332430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_22
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 447
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799c623c6f5665d40800000000000000
+      internalID: 5572753699428026775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_23
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 447
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1e18321e62d0e70800000000000000
+      internalID: 9082958771881370072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_24
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 447
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41d43709af887940800000000000000
+      internalID: 5294139318107165007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_25
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 447
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4332ee5db4105100800000000000000
+      internalID: 94598395748037451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_26
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 447
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546bf0d800523ef40800000000000000
+      internalID: 5756485433006470725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_27
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 399
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b8642c663183eb0800000000000000
+      internalID: -4740017275740452080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_28
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 399
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3c0072f6624dba0800000000000000
+      internalID: -6065180539323628560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_29
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 399
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f336be99f0bb54c10800000000000000
+      internalID: 2037240082136261439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_30
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 399
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc5b7b962ad374e0800000000000000
+      internalID: -1985003151388091196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_31
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 399
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94662bdacc5b797d0800000000000000
+      internalID: -2911658743379630519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_32
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 399
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5fb9fbd49f5b7070800000000000000
+      internalID: 8105177047333715804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_33
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 399
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b0fdd963a6d5740800000000000000
+      internalID: 5142383132336393001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_34
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 399
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2550c6c2549f18240800000000000000
+      internalID: 4792385553992254802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_35
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 369
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9280ffc012f251f0800000000000000
+      internalID: -1057516808456600929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_36
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 369
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4855848a164d187c0800000000000000
+      internalID: -4070739072265988732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_37
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 369
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fcee0b886a6ae30800000000000000
+      internalID: 4514478782499704687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_38
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 369
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62fd03fe2240e740800000000000000
+      internalID: 5179212340889776751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_39
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 369
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89830b806e75ef570800000000000000
+      internalID: 8502329792021936280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_40
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 369
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ff72578b849a300800000000000000
+      internalID: 263822010254622541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_41
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 369
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe48a88839d2c610800000000000000
+      internalID: 1640112051150409467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_42
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 369
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7fe315ae69f07650800000000000000
+      internalID: 6228752538264661883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_43
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 369
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be11ecf4bea28340800000000000000
+      internalID: 4864642639873515193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_44
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 323
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfb90c8ed6eabf20800000000000000
+      internalID: 3439315108957372373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_45
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 323
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd99b0b29c6af250800000000000000
+      internalID: 5979210832573734365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_46
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 323
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815857b49c4a37150800000000000000
+      internalID: 5869215923855263000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_47
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 323
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db77b81b00d3d200800000000000000
+      internalID: 203735154239699923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_48
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 323
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1519a74f70f64e8b0800000000000000
+      internalID: -5123848396083654319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_49
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 323
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac368e6cb7787c80800000000000000
+      internalID: -8324772260002513749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_50
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 296
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a431bb0bc4dbb0c0800000000000000
+      internalID: -4558816229242882908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_51
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 296
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915911b1a1dbe9650800000000000000
+      internalID: 6241634053403022617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_52
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 296
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2873fb485252d5080800000000000000
+      internalID: -9197154020949543038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_53
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 296
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0e1afb49ed81a10800000000000000
+      internalID: 1880497574878765275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_54
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 296
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd33ce01af4fde3f0800000000000000
+      internalID: -869769798149721123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_55
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 296
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64296c70197fc8a0800000000000000
+      internalID: -6282669843444849558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_56
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 296
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44057928ac4468f0800000000000000
+      internalID: -548228969498606516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_57
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 296
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15dc6509870a335c0800000000000000
+      internalID: -4236866384747377327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_58
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 296
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67871fe7698b2f50800000000000000
+      internalID: 6857725937087645548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_59
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 296
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5729b8a1fd36d6be0800000000000000
+      internalID: -1482418892460813707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_60
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 296
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec1c98567d0cb600800000000000000
+      internalID: 485277661793098989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_61
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 296
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77273d95463a69e80800000000000000
+      internalID: -8172164822418099593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_62
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 250
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0229ab7ae3afda0800000000000000
+      internalID: -5910342670859755325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_63
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 250
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce84ede3e1b2ebf0800000000000000
+      internalID: -296479032946159923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_64
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 250
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4e92837aa9fc010800000000000000
+      internalID: 1211356867778438358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_65
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 250
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51339f55820942750800000000000000
+      internalID: 6279302283376800533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_66
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 250
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f305d71035ce44e0800000000000000
+      internalID: -1995440774529612816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_67
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 250
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f207cc47e34b7cb0800000000000000
+      internalID: -4865220311739071752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_68
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 186
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d441df23cde709b40800000000000000
+      internalID: 5444991433704281165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_69
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 186
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de527000423c17e0800000000000000
+      internalID: -1793503301133508907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_70
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 186
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414cb6f3a1840cf80800000000000000
+      internalID: -8088385653187034092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_71
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 186
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90440744994b342c0800000000000000
+      internalID: -4448513436540713975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_72
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 186
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b2c5bc358f77920800000000000000
+      internalID: 2988129916561402718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_73
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 186
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cdbaf2b8bf5ef5f0800000000000000
+      internalID: -721033643451302461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_74
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 128
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc40a7a6689af3a60800000000000000
+      internalID: 7656024286330225871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_75
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 128
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07cd1343866c2e50800000000000000
+      internalID: 6785911452493268748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_76
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 129
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383c13ce3f2ae0330800000000000000
+      internalID: 3679057114131710851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_77
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 129
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc05a9b4a1dfd2750800000000000000
+      internalID: 6281955344631091403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_78
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 129
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12fe1a367bc5e3730800000000000000
+      internalID: 3980721063362424609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_79
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 129
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fdf948e240764460800000000000000
+      internalID: 7225586084829855225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_80
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 72
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5d1b4fc62785a70800000000000000
+      internalID: 8815922082865075658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_81
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 72
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3478ff940399310800000000000000
+      internalID: 1412213052535161823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_82
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 72
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b31a9016136dc00800000000000000
+      internalID: 924981066314365813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_83
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 72
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc50e2b8eb5526c0800000000000000
+      internalID: -4168824825069937446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_84
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 72
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a8ee5d95dbcb360800000000000000
+      internalID: 7186827298915388035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_85
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 72
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503cabe5f922be660800000000000000
+      internalID: 7416059279280096005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_86
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 23
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21da9b8b114c40570800000000000000
+      internalID: 8432079982737075474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_87
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 23
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21ba411100213ac0800000000000000
+      internalID: -3877282615232122581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_88
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 23
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97a207bd934f2040800000000000000
+      internalID: 4624989686992119706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_89
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 23
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347fb9b3a5faca500800000000000000
+      internalID: 408894468265867075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_90
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 23
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2844d38bde9a07c20800000000000000
+      internalID: 3202246173523788930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spacepolice_red fixed_91
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 23
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6d0efd305fab2e0800000000000000
+      internalID: -2109104078479894866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spacepolice_red fixed_0: 1189800724734136189
+      spacepolice_red fixed_1: -7976805935948435981
+      spacepolice_red fixed_10: 1444254188350192825
+      spacepolice_red fixed_11: 8432102542286319279
+      spacepolice_red fixed_12: -4291243697564504586
+      spacepolice_red fixed_13: 8033304969680075407
+      spacepolice_red fixed_14: -4889641556482160964
+      spacepolice_red fixed_15: -5966651760396909011
+      spacepolice_red fixed_16: 4974462207673574297
+      spacepolice_red fixed_17: -845782183363511268
+      spacepolice_red fixed_18: -7869316197512513525
+      spacepolice_red fixed_19: -9003713449043700848
+      spacepolice_red fixed_2: -4177647639166293204
+      spacepolice_red fixed_20: 6393280965443441832
+      spacepolice_red fixed_21: 323935908402332430
+      spacepolice_red fixed_22: 5572753699428026775
+      spacepolice_red fixed_23: 9082958771881370072
+      spacepolice_red fixed_24: 5294139318107165007
+      spacepolice_red fixed_25: 94598395748037451
+      spacepolice_red fixed_26: 5756485433006470725
+      spacepolice_red fixed_27: -4740017275740452080
+      spacepolice_red fixed_28: -6065180539323628560
+      spacepolice_red fixed_29: 2037240082136261439
+      spacepolice_red fixed_3: -519918817782360146
+      spacepolice_red fixed_30: -1985003151388091196
+      spacepolice_red fixed_31: -2911658743379630519
+      spacepolice_red fixed_32: 8105177047333715804
+      spacepolice_red fixed_33: 5142383132336393001
+      spacepolice_red fixed_34: 4792385553992254802
+      spacepolice_red fixed_35: -1057516808456600929
+      spacepolice_red fixed_36: -4070739072265988732
+      spacepolice_red fixed_37: 4514478782499704687
+      spacepolice_red fixed_38: 5179212340889776751
+      spacepolice_red fixed_39: 8502329792021936280
+      spacepolice_red fixed_4: -33883341612428657
+      spacepolice_red fixed_40: 263822010254622541
+      spacepolice_red fixed_41: 1640112051150409467
+      spacepolice_red fixed_42: 6228752538264661883
+      spacepolice_red fixed_43: 4864642639873515193
+      spacepolice_red fixed_44: 3439315108957372373
+      spacepolice_red fixed_45: 5979210832573734365
+      spacepolice_red fixed_46: 5869215923855263000
+      spacepolice_red fixed_47: 203735154239699923
+      spacepolice_red fixed_48: -5123848396083654319
+      spacepolice_red fixed_49: -8324772260002513749
+      spacepolice_red fixed_5: 527566978032812772
+      spacepolice_red fixed_50: -4558816229242882908
+      spacepolice_red fixed_51: 6241634053403022617
+      spacepolice_red fixed_52: -9197154020949543038
+      spacepolice_red fixed_53: 1880497574878765275
+      spacepolice_red fixed_54: -869769798149721123
+      spacepolice_red fixed_55: -6282669843444849558
+      spacepolice_red fixed_56: -548228969498606516
+      spacepolice_red fixed_57: -4236866384747377327
+      spacepolice_red fixed_58: 6857725937087645548
+      spacepolice_red fixed_59: -1482418892460813707
+      spacepolice_red fixed_6: 1957970726673616081
+      spacepolice_red fixed_60: 485277661793098989
+      spacepolice_red fixed_61: -8172164822418099593
+      spacepolice_red fixed_62: -5910342670859755325
+      spacepolice_red fixed_63: -296479032946159923
+      spacepolice_red fixed_64: 1211356867778438358
+      spacepolice_red fixed_65: 6279302283376800533
+      spacepolice_red fixed_66: -1995440774529612816
+      spacepolice_red fixed_67: -4865220311739071752
+      spacepolice_red fixed_68: 5444991433704281165
+      spacepolice_red fixed_69: -1793503301133508907
+      spacepolice_red fixed_7: 5943966014433139085
+      spacepolice_red fixed_70: -8088385653187034092
+      spacepolice_red fixed_71: -4448513436540713975
+      spacepolice_red fixed_72: 2988129916561402718
+      spacepolice_red fixed_73: -721033643451302461
+      spacepolice_red fixed_74: 7656024286330225871
+      spacepolice_red fixed_75: 6785911452493268748
+      spacepolice_red fixed_76: 3679057114131710851
+      spacepolice_red fixed_77: 6281955344631091403
+      spacepolice_red fixed_78: 3980721063362424609
+      spacepolice_red fixed_79: 7225586084829855225
+      spacepolice_red fixed_8: 3507857283277121823
+      spacepolice_red fixed_80: 8815922082865075658
+      spacepolice_red fixed_81: 1412213052535161823
+      spacepolice_red fixed_82: 924981066314365813
+      spacepolice_red fixed_83: -4168824825069937446
+      spacepolice_red fixed_84: 7186827298915388035
+      spacepolice_red fixed_85: 7416059279280096005
+      spacepolice_red fixed_86: 8432079982737075474
+      spacepolice_red fixed_87: -3877282615232122581
+      spacepolice_red fixed_88: 4624989686992119706
+      spacepolice_red fixed_89: 408894468265867075
+      spacepolice_red fixed_9: -68579184963631256
+      spacepolice_red fixed_90: 3202246173523788930
+      spacepolice_red fixed_91: -2109104078479894866
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
