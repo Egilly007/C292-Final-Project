@@ -2,12 +2,16 @@ using UnityEngine;
 
 public class MovePlayer : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-    public float jumpForce = 0.5f;
+    public float moveSpeed = 1f;
+    public float jumpForce = 7f;
+    public float maxSpeed = 4f;
+    public bool velocityCapEnabled = true;
+
     public Animator anim;
 
     SpriteRenderer spriteRenderer;
     Rigidbody2D rb;
+
     bool facingRight = true;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -23,6 +27,7 @@ public class MovePlayer : MonoBehaviour
     {
         movement();
         anims();
+        capVelocity();
     }
 
     void movement()
@@ -66,5 +71,19 @@ public class MovePlayer : MonoBehaviour
     {
         facingRight = !facingRight;
         spriteRenderer.flipX = !spriteRenderer.flipX;
+    }
+
+    void capVelocity()
+    {
+        if (rb.linearVelocityX > maxSpeed)
+        {
+            float cappedXVelocity = Mathf.Min(rb.linearVelocityX, maxSpeed);
+            rb.linearVelocityX = cappedXVelocity;
+        }
+        if (rb.linearVelocityX < -maxSpeed)
+        {
+            float cappedXVelocity = Mathf.Max(rb.linearVelocityX, -maxSpeed);
+            rb.linearVelocityX = cappedXVelocity;
+        }
     }
 }
