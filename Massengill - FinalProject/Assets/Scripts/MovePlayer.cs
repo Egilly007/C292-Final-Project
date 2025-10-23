@@ -3,11 +3,11 @@ using UnityEngine.InputSystem;
 
 public class MovePlayer : MonoBehaviour
 {
-    public float moveSpeed = 1f;
+    public float moveSpeed = 10f;
     public float jumpForce = 7f;
     public float maxSpeed = 4f;
     public bool velocityCapEnabled = true;
-    public bool canJump = false;
+    public bool canJump = true;
 
     public float fireCooldown = 0.25f;
     float lastFireTime;
@@ -49,33 +49,36 @@ public class MovePlayer : MonoBehaviour
         {
             rb.AddForce(Vector2.left * moveSpeed);
         }
-        if (Input.GetKeyDown(KeyCode.Space) && canJump == true)
+        if (Input.GetKeyDown(KeyCode.Space) && canJump)
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             canJump = false;
+        }
+        if (!canJump)
+        {
             anim.SetBool("Jumping", true);
         }
     }
 
     void anims()
     {
-        if (Input.GetKeyDown(KeyCode.D))
+        if (Input.GetKeyDown(KeyCode.D) && canJump)
         {
-            if (canJump)
-            {
-                anim.SetTrigger("Run");
-            }
+            anim.SetBool("Running", true);
         }
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.A) && canJump)
         {
-            anim.SetTrigger("Run");
+            anim.SetBool("Running", true);
+        }
+        if (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D))
+        {
+            anim.SetBool("Running", false);
+        }
+        if (facingRight && Input.GetKey(KeyCode.A))
+        {
             flipSprite();
         }
-        if (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.A) || !canJump)
-        {
-            anim.SetTrigger("Backtoidle");
-        }
-        if (Input.GetKeyUp(KeyCode.A))
+        if (!facingRight && Input.GetKey(KeyCode.D))
         {
             flipSprite();
         }

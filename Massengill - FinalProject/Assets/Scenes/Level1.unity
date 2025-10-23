@@ -7474,7 +7474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a0a7db3e320ad146b050f41417c928c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MovePlayer
-  moveSpeed: 1
+  moveSpeed: 10
   jumpForce: 7
   maxSpeed: 4
   velocityCapEnabled: 1
