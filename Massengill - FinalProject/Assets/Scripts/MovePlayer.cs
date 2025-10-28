@@ -8,6 +8,7 @@ public class MovePlayer : MonoBehaviour
     public float maxSpeed = 4f;
     public bool velocityCapEnabled = true;
     public bool canJump = true;
+    [HideInInspector] public bool flipped = false;
 
     public float fireCooldown = 0.25f;
     float lastFireTime;
@@ -53,6 +54,7 @@ public class MovePlayer : MonoBehaviour
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             canJump = false;
+            anim.SetBool("Jumping", false);
         }
         if (!canJump)
         {
@@ -88,6 +90,10 @@ public class MovePlayer : MonoBehaviour
     {
         facingRight = !facingRight;
         spriteRenderer.flipX = !spriteRenderer.flipX;
+
+        float spawnposx = spawnpoint.transform.localPosition.x;
+        spawnposx = -spawnposx;
+        spawnpoint.transform.localPosition = new Vector2(spawnposx, spawnpoint.transform.localPosition.y);
     }
 
     void capVelocity()
@@ -115,10 +121,19 @@ public class MovePlayer : MonoBehaviour
 
     void Shoot()
     {
-        if(Input.GetMouseButton(0) && Time.time - lastFireTime >= fireCooldown)
+        if (Input.GetMouseButton(0) && Time.time - lastFireTime >= fireCooldown)
         {
             Vector2 spawnpos = spawnpoint.transform.position;
-            Instantiate(bullet, spawnpos, Quaternion.identity);
+            GameObject proj = Instantiate(bullet, spawnpos, Quaternion.identity);
+
+            var bb = proj.GetComponent<BulletBehavior>();
+            if (bb != null)
+                bb.facingRight = facingRight;
+
+            var sr = proj.GetComponent<SpriteRenderer>();
+            if (sr != null)
+                sr.flipX = !facingRight;
+
             lastFireTime = Time.time;
         }
     }
