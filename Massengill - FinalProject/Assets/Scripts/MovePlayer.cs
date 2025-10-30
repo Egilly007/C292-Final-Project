@@ -12,6 +12,7 @@ public class MovePlayer : MonoBehaviour
     public bool velocityCapEnabled = true;
     public bool canJump = true;
     [HideInInspector] public bool flipped = false;
+    public RaycastHit2D lastHit;
 
     public float fireCooldown = 0.25f;
     float lastFireTime;
@@ -25,15 +26,12 @@ public class MovePlayer : MonoBehaviour
 
     bool facingRight = true;
 
-    private LineRenderer lineRenderer;
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        lineRenderer = gameObject.AddComponent<LineRenderer>();
     }
 
     // Update is called once per frame
@@ -131,28 +129,25 @@ public class MovePlayer : MonoBehaviour
             Vector2 origin = spawnpoint.transform.position;
             Vector2 fireDirection = facingRight ? Vector2.right : Vector2.left;
 
-            RaycastHit2D hit = Physics2D.Raycast(origin, fireDirection, fireRange);
-            
+            lastHit = Physics2D.Raycast(origin, fireDirection, fireRange);
 
-            Vector2 hitPoint = origin + fireDirection * fireRange;
-
-            if (hit.collider == null)
+            if (lastHit.collider != null)
             {
+                Debug.DrawLine(origin, lastHit.point, Color.red, 0.5f);
+                Debug.Log("Hit: " + lastHit.collider.name);
+            }
+            else
+            {
+                Debug.DrawLine(origin, origin + fireDirection * fireRange, Color.red, 1f);
                 Debug.Log("No Hit");
             }
 
-            if (hit.collider != null)
-            {
-                hitPoint = hit.point;
-                Debug.Log("Hit: " + hit.collider.name);
-            }
-
             lastFireTime = Time.time;
+        }
 
-            if (hit.collider.CompareTag("Distructable"))
-            {
-                Destroy(hit.collider.gameObject);
-            }
+        if (lastHit.collider.CompareTag("Distructable") || lastHit.collider.CompareTag("Enemy"))
+        {
+            Destroy(lastHit.collider.gameObject);
         }
     }
 }

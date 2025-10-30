@@ -8,13 +8,13 @@ public class ZombieBehavior : MonoBehaviour
     bool inSight = false;
 
     public Animator anim;
-    private Transform player;
+    private Transform playerpos;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        playerpos = GameObject.FindGameObjectWithTag("Player").transform;
         anim = GetComponent<Animator>();
     }
 
@@ -37,7 +37,7 @@ public class ZombieBehavior : MonoBehaviour
         if (inSight == true)
         {
             anim.SetBool("Walk", true);
-            transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, playerpos.position, speed * Time.deltaTime);
         }
     }
 }
