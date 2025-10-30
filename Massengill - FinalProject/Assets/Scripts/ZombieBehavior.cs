@@ -1,8 +1,10 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ZombieBehavior : MonoBehaviour
 {
-    [SerializeField] private float speed = 20f;
+    [SerializeField] private float speed = 5f;
+    public Collider Hitbox;
     bool inSight = false;
 
     public Animator anim;
@@ -27,14 +29,6 @@ public class ZombieBehavior : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             inSight = true;
-        }
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Bullet"))
-        {
-            Destroy(gameObject);
         }
     }
 

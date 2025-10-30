@@ -1,3 +1,5 @@
+using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -6,6 +8,7 @@ public class MovePlayer : MonoBehaviour
     public float moveSpeed = 10f;
     public float jumpForce = 7f;
     public float maxSpeed = 4f;
+    public float fireRange = 7f;    
     public bool velocityCapEnabled = true;
     public bool canJump = true;
     [HideInInspector] public bool flipped = false;
@@ -14,7 +17,6 @@ public class MovePlayer : MonoBehaviour
     float lastFireTime;
 
     public GameObject spawnpoint;
-    public GameObject bullet;
 
     public Animator anim;
 
@@ -23,12 +25,15 @@ public class MovePlayer : MonoBehaviour
 
     bool facingRight = true;
 
+    private LineRenderer lineRenderer;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        lineRenderer = gameObject.AddComponent<LineRenderer>();
     }
 
     // Update is called once per frame
@@ -123,18 +128,31 @@ public class MovePlayer : MonoBehaviour
     {
         if (Input.GetMouseButton(0) && Time.time - lastFireTime >= fireCooldown)
         {
-            Vector2 spawnpos = spawnpoint.transform.position;
-            GameObject proj = Instantiate(bullet, spawnpos, Quaternion.identity);
+            Vector2 origin = spawnpoint.transform.position;
+            Vector2 fireDirection = facingRight ? Vector2.right : Vector2.left;
 
-            var bb = proj.GetComponent<BulletBehavior>();
-            if (bb != null)
-                bb.facingRight = facingRight;
+            RaycastHit2D hit = Physics2D.Raycast(origin, fireDirection, fireRange);
+            
 
-            var sr = proj.GetComponent<SpriteRenderer>();
-            if (sr != null)
-                sr.flipX = !facingRight;
+            Vector2 hitPoint = origin + fireDirection * fireRange;
+
+            if (hit.collider == null)
+            {
+                Debug.Log("No Hit");
+            }
+
+            if (hit.collider != null)
+            {
+                hitPoint = hit.point;
+                Debug.Log("Hit: " + hit.collider.name);
+            }
 
             lastFireTime = Time.time;
+
+            if (hit.collider.CompareTag("Distructable"))
+            {
+                Destroy(hit.collider.gameObject);
+            }
         }
     }
 }

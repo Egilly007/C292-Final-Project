@@ -238,3 +238,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 294048f563a55af499abdaf0a9c92134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ZombieBehavior
+  speed: 5
+  Hitbox: {fileID: 0}
+  anim: {fileID: 0}
