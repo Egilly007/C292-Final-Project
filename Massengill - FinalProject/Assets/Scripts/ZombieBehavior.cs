@@ -4,7 +4,7 @@ using UnityEngine;
 public class ZombieBehavior : MonoBehaviour
 {
     [SerializeField] private float speed = 5f;
-    [SerializeField] private float detectionRange = 10f;
+    [SerializeField] private float detectionRange = 0.5f;
 
     bool inSight = false;
     public Animator anim;
@@ -28,19 +28,17 @@ public class ZombieBehavior : MonoBehaviour
     void DetectPlayer()
     {
         Vector2 direction = (playerpos.position - transform.position).normalized;
+        Vector3 offset = new Vector3(0f,0f);
 
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, detectionRange);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position + offset, direction, detectionRange);
 
-        if(hit.collider != null && hit.collider.CompareTag("Player"))
+        if (hit.collider != null && hit.collider.CompareTag("Player"))
         {
+            Debug.Log(hit.collider.gameObject.tag);
             inSight = true;
         }
-        else
-        {
-            inSight = false;
-        }
 
-        Debug.DrawRay(transform.position, direction * detectionRange, inSight ? Color.green : Color.red);
+        Debug.DrawRay(transform.position + offset, direction * detectionRange, inSight ? Color.green : Color.red);
     }
 
     void Attack()

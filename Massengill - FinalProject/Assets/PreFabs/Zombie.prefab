@@ -203,7 +203,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieBehavior
   speed: 5
   detectionRange: 10
-  layers:
-    serializedVersion: 2
-    m_Bits: 8
   anim: {fileID: 0}
