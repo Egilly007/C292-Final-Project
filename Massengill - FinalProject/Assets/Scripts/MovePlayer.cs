@@ -135,6 +135,10 @@ public class MovePlayer : MonoBehaviour
             {
                 Debug.DrawLine(origin, lastHit.point, Color.red, 0.5f);
                 Debug.Log("Hit: " + lastHit.collider.name);
+                if (lastHit.collider.CompareTag("Distructable") || lastHit.collider.CompareTag("Enemy"))
+                {
+                    Destroy(lastHit.collider.gameObject);
+                }
             }
             else
             {
@@ -143,11 +147,6 @@ public class MovePlayer : MonoBehaviour
             }
 
             lastFireTime = Time.time;
-        }
-
-        if (lastHit.collider.CompareTag("Distructable") || lastHit.collider.CompareTag("Enemy"))
-        {
-            Destroy(lastHit.collider.gameObject);
         }
     }
 }
