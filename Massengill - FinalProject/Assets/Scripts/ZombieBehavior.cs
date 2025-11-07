@@ -25,21 +25,48 @@ public class ZombieBehavior : MonoBehaviour
         Attack();
     }
 
+    /*
     void DetectPlayer()
     {
         Vector2 direction = (playerpos.position - transform.position).normalized;
-        Vector3 offset = new Vector3(0f,0f);
+        Vector3 offset = new Vector3(0.5f,0f);
 
         RaycastHit2D hit = Physics2D.Raycast(transform.position + offset, direction, detectionRange);
 
-        if (hit.collider != null && hit.collider.CompareTag("Player"))
+        if (hit.collider != null)
         {
-            Debug.Log(hit.collider.gameObject.tag);
-            inSight = true;
+            if (hit.collider.gameObject.CompareTag("Player"))
+            {
+                Debug.Log(hit.collider.gameObject.tag);
+                inSight = true;
+            }
         }
 
         Debug.DrawRay(transform.position + offset, direction * detectionRange, inSight ? Color.green : Color.red);
     }
+    */
+
+    void DetectPlayer()
+    {
+        inSight = false; // reset every frame
+
+        Vector2 direction = (playerpos.position - transform.position).normalized;
+        Vector3 offset = new Vector3(-0.8f, 0f);
+
+        RaycastHit2D hit = Physics2D.Raycast(transform.position + offset, direction, detectionRange);
+
+        if (hit.collider != null)
+        {
+            if (hit.collider.CompareTag("Player"))
+            {
+                Debug.Log("Player detected");
+                inSight = true;
+            }
+        }
+
+        Debug.DrawRay(transform.position + offset, direction * detectionRange, inSight ? Color.green : Color.red);
+    }
+
 
     void Attack()
     {
