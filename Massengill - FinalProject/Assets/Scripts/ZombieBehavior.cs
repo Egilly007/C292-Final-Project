@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class ZombieBehavior : MonoBehaviour
 {
+    public int health = 4;
     [SerializeField] private float speed = 5f;
     [SerializeField] private float detectionRange = 0.5f;
 
@@ -24,27 +25,6 @@ public class ZombieBehavior : MonoBehaviour
         DetectPlayer();
         Attack();
     }
-
-    /*
-    void DetectPlayer()
-    {
-        Vector2 direction = (playerpos.position - transform.position).normalized;
-        Vector3 offset = new Vector3(0.5f,0f);
-
-        RaycastHit2D hit = Physics2D.Raycast(transform.position + offset, direction, detectionRange);
-
-        if (hit.collider != null)
-        {
-            if (hit.collider.gameObject.CompareTag("Player"))
-            {
-                Debug.Log(hit.collider.gameObject.tag);
-                inSight = true;
-            }
-        }
-
-        Debug.DrawRay(transform.position + offset, direction * detectionRange, inSight ? Color.green : Color.red);
-    }
-    */
 
     void DetectPlayer()
     {
@@ -78,6 +58,15 @@ public class ZombieBehavior : MonoBehaviour
         else
         {
             anim.SetBool("Walk", false);
+        }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        health--;
+        if (health <= 0)
+        {
+            Destroy(gameObject);
         }
     }
 }

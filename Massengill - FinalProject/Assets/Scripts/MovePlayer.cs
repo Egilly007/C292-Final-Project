@@ -26,7 +26,6 @@ public class MovePlayer : MonoBehaviour
 
     bool facingRight = true;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -34,7 +33,6 @@ public class MovePlayer : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         movement();
@@ -135,9 +133,25 @@ public class MovePlayer : MonoBehaviour
             {
                 Debug.DrawLine(origin, lastHit.point, Color.red, 0.5f);
                 Debug.Log("Hit: " + lastHit.collider.name);
-                if (lastHit.collider.CompareTag("Distructable") || lastHit.collider.CompareTag("Enemy"))
+
+                var explosive = lastHit.collider.GetComponent<explosiveBehavior>();
+                var destructible = lastHit.collider.GetComponent<NormalCrateBehavior>();
+                var enemy = lastHit.collider.GetComponent<ZombieBehavior>();
+
+                if (explosive != null)
                 {
+                    explosive.TriggerExplosion();
                     Destroy(lastHit.collider.gameObject);
+                }
+
+                if(destructible != null)
+                {
+                    destructible.TakeDamage(1);
+                }
+
+                if(enemy != null)
+                {
+                    enemy.TakeDamage(1);
                 }
             }
             else
@@ -148,5 +162,11 @@ public class MovePlayer : MonoBehaviour
 
             lastFireTime = Time.time;
         }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        int rand = Random.Range(0, 20);
+        Debug.Log("Player took " + rand + " damage.");
     }
 }

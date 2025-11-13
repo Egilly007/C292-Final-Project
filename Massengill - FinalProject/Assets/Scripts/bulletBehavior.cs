@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class NormalCrateBehavior : MonoBehaviour
+public class bulletBehavior : MonoBehaviour
 {
-    int health = 3;
+    float lifetime = 2f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -12,13 +12,9 @@ public class NormalCrateBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    public void TakeDamage(int damage)
-    {
-        health--;
-        if (health <= 0)
+        lifetime -= Time.deltaTime;
+        transform.Translate(Vector2.right * 200f * Time.deltaTime);
+        if (lifetime <= 0f)
         {
             Destroy(gameObject);
         }

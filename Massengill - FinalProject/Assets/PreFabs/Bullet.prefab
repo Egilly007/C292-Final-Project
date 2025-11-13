@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3307530435521727677}
   - component: {fileID: -8548545012478114544}
   - component: {fileID: -1445911545020551467}
-  - component: {fileID: 3422758173017642657}
+  - component: {fileID: 5266778497922622291}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Bullet
@@ -157,7 +157,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1.0000002, y: 2.0000005}
   m_Direction: 0
---- !u!114 &3422758173017642657
+--- !u!114 &5266778497922622291
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -166,9 +166,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 8316553800911247979}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8e43d420a8e713478a998a6e068d2fb, type: 3}
+  m_Script: {fileID: 11500000, guid: 45a1d21bffb219040b756d5f0406ed87, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BulletBehavior
-  speed: 40
-  lifetime: 2
-  facingRight: 1
+  m_EditorClassIdentifier: '::'

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8501107161637267437}
   - component: {fileID: 67032840740705917}
   - component: {fileID: 5628938347908269051}
-  - component: {fileID: -5725075424014409443}
+  - component: {fileID: -89618853020735329}
   m_Layer: 0
   m_Name: ExplosiveBarrel_0
   m_TagString: Distructable
@@ -166,7 +166,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-5725075424014409443
+--- !u!114 &-89618853020735329
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -177,4 +177,12 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b3a54cc7c6a2c3840bbd2b5db733a745, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: '::'
+  m_EditorClassIdentifier: Assembly-CSharp::explosiveBehavior
+  delay: 2
+  radius: 3
+  damage: 5
+  damageMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  explosionVFX: {fileID: 0}
+  explosionForce: 40
