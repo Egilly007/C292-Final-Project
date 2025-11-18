@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class explosiveBehavior : MonoBehaviour
 {
-    public float delay = 2f;
+    public float delay = 5f;
     public float radius = 3f;
     public int damage = 5;
     public LayerMask damageMask = ~0;
