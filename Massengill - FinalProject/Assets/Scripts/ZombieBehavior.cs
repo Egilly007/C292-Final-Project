@@ -4,15 +4,18 @@ using UnityEngine;
 public class ZombieBehavior : MonoBehaviour
 {
     public int health = 4;
-    [SerializeField] private float speed = 5f;
-    [SerializeField] private float detectionRange = 0.5f;
-    Vector3 offset = new Vector3(-0.8f, 0f);
-
+    public float speed = 4f;
+    public float detectionRange = 10f;
+    private float playerenemydistance;
     bool inSight = false;
+    bool facingRight;   
+
+    Vector3 offset;
+
+    //component refs
     public Animator anim;
     private Transform playerpos;
     private SpriteRenderer sr;
-    private float playerenemydistance;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -29,15 +32,18 @@ public class ZombieBehavior : MonoBehaviour
         if (playerenemydistance > 0)
         {
             sr.flipX = true;
+            facingRight = false;
 
         }
         else
         {
             sr.flipX = false;
+            facingRight = true;
         }
 
         DetectPlayer();
         Attack();
+        FlipRaycast();
     }
 
     void DetectPlayer()
@@ -52,7 +58,6 @@ public class ZombieBehavior : MonoBehaviour
         {
             if (hit.collider.CompareTag("Player"))
             {
-                Debug.Log("Player detected");
                 inSight = true;
             }
         }
@@ -74,12 +79,38 @@ public class ZombieBehavior : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            var player = collision.gameObject.GetComponent<MovePlayer>();
+            player.TakeDamage(1);
+            anim.SetBool("Attack", true);
+        }
+        else
+        {
+            anim.SetBool("Attack", false);
+        }
+    }
+
     public void TakeDamage(int damage)
     {
         health--;
         if (health <= 0)
         {
             Destroy(gameObject);
+        }
+    }
+
+    void FlipRaycast()
+    {
+        if (!facingRight)
+        {
+            offset = new Vector3(0.8f, 0f);
+        }
+        else
+        {
+            offset = new Vector3(-0.8f, 0f);
         }
     }
 }

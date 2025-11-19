@@ -5,20 +5,20 @@ using UnityEngine.InputSystem;
 
 public class MovePlayer : MonoBehaviour
 {
+    public int health = 2;
     public float moveSpeed = 10f;
     public float jumpForce = 7f;
     public float maxSpeed = 4f;
-    public float fireRange = 7f;    
-    public bool velocityCapEnabled = true;
-    public bool canJump = true;
-    [HideInInspector] public bool flipped = false;
-    public RaycastHit2D lastHit;
-
+    public float fireRange = 7f;
     public float fireCooldown = 0.25f;
     float lastFireTime;
 
-    public GameObject spawnpoint;
+    public bool velocityCapEnabled = true;
+    public bool canJump = true;
+    public bool flipped = false;
+    public RaycastHit2D lastHit;
 
+    public GameObject spawnpoint;
     public Animator anim;
 
     SpriteRenderer spriteRenderer;
@@ -166,7 +166,14 @@ public class MovePlayer : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        int rand = Random.Range(0, 20);
-        Debug.Log("Player took " + rand + " damage.");
+        int rand = Random.Range(0, 3);
+        health -= damage;
+        Debug.Log("Player has" + health);
+
+        if (health <= 0)
+        {
+            Debug.Log("Player Died");
+            //Destroy(gameObject);
+        }
     }
 }
