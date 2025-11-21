@@ -1,9 +1,11 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameOverLogic : MonoBehaviour
 {
     public GameObject blackOverlay;
     public GameObject gameOverScreen;
+    public GameObject restartButton;
     public MovePlayer player;
 
     public bool pauseOnGameOver = true;
@@ -11,6 +13,7 @@ public class GameOverLogic : MonoBehaviour
 
     void Start()
     {
+        if (restartButton != null) restartButton.SetActive(false);
         if (blackOverlay != null) blackOverlay.SetActive(false);
         if (gameOverScreen != null) gameOverScreen.SetActive(false);
 
@@ -50,6 +53,7 @@ public class GameOverLogic : MonoBehaviour
     {
         if (gameOverShown) return;
 
+        if (restartButton != null) restartButton.SetActive(true);
         if (blackOverlay != null) blackOverlay.SetActive(true);
         if (gameOverScreen != null) gameOverScreen.SetActive(true);
 
