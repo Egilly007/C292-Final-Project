@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class MovePlayer : MonoBehaviour
 {
-    public int health = 2;
+    public int health = 5;
     public float moveSpeed = 10f;
     public float jumpForce = 7f;
     public float maxSpeed = 4f;
