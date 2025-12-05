@@ -32,12 +32,6 @@ public class ElevatorBehavior : MonoBehaviour
         Vector2 origin = (Vector2)(transform.position + offset);
         lastHit = Physics2D.Raycast(origin, Vector2.down, rayDistance);
 
-        if (lastHit.collider == null)
-        {
-            Debug.LogWarning("ElevatorBehavior: No ground detected below elevator.");
-            return;
-        }
-
         if (moveCoroutine != null)
             StopCoroutine(moveCoroutine);
 
