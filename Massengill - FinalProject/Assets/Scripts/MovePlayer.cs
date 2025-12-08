@@ -5,6 +5,8 @@ using UnityEngine.InputSystem;
 
 public class MovePlayer : MonoBehaviour
 {
+    int money = 0;
+
     public int health = 5;
     public float moveSpeed = 10f;
     public float jumpForce = 7f;
@@ -30,6 +32,7 @@ public class MovePlayer : MonoBehaviour
     Rigidbody2D rb;
 
     bool facingRight = true;
+    bool hasIncremented = false;
 
     void Start()
     {
@@ -50,6 +53,7 @@ public class MovePlayer : MonoBehaviour
         anims();
         capVelocity();
         Shoot();
+        Debug.Log(money);
     }
 
     void movement()
@@ -232,6 +236,20 @@ public class MovePlayer : MonoBehaviour
         {
             Debug.Log("Player Died");
             //Destroy(gameObject);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Money"))
+        {
+            if (!hasIncremented)
+            {
+                money++;
+                hasIncremented = true;
+            }
+            Debug.Log("Player Money:" + money);
+            Destroy(collision.gameObject);
         }
     }
 }

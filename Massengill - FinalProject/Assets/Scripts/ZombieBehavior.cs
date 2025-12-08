@@ -17,6 +17,9 @@ public class ZombieBehavior : MonoBehaviour
     private Transform playerpos;
     private SpriteRenderer sr;
 
+    public GameObject money1;
+    public GameObject money2;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -99,6 +102,25 @@ public class ZombieBehavior : MonoBehaviour
         if (health <= 0)
         {
             Destroy(gameObject);
+
+            int dropAmmount = Random.Range(1, 3);
+            int dropChance = Random.Range(1, 2);
+
+            if (dropChance == 1)
+            {
+                for (int i = 0; i < dropAmmount; i++)
+                {
+                    Instantiate(money1, transform.position, Quaternion.identity);
+                }
+            }
+            else
+            {
+                for (int i = 0; i < dropAmmount; i++)
+                {
+                    Instantiate(money2, transform.position, Quaternion.identity);
+                }
+            }
+
         }
     }
 

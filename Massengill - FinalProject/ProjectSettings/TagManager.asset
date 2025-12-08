@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Bullet
   - Distructable
+  - Money
   layers:
   - Default
   - TransparentFX

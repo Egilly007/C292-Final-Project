@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 4f54b1a5b01ea4546aa1fa3bdc9faa85
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4646610507891287597
+    second: Money-ezgif.com-svg-to-png-converter_0
+  - first:
+      213: -1811557368532136096
+    second: Money-ezgif.com-svg-to-png-converter_1
+  - first:
+      213: -8049135571178405981
+    second: Money-ezgif.com-svg-to-png-converter_2
+  - first:
+      213: 3017908235470753581
+    second: Money-ezgif.com-svg-to-png-converter_3
+  - first:
+      213: -1725519355902661732
+    second: Money-ezgif.com-svg-to-png-converter_4
+  - first:
+      213: -3346354610942349589
+    second: Money-ezgif.com-svg-to-png-converter_5
+  - first:
+      213: 7321908487906466409
+    second: Money-ezgif.com-svg-to-png-converter_6
+  - first:
+      213: 6202134775596080241
+    second: Money-ezgif.com-svg-to-png-converter_7
+  - first:
+      213: -6875269351798936698
+    second: Money-ezgif.com-svg-to-png-converter_8
+  - first:
+      213: 6098861597454339888
+    second: Money-ezgif.com-svg-to-png-converter_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Money-ezgif.com-svg-to-png-converter_0
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 564
+        width: 80
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d9da83ac5ce38fb0800000000000000
+      internalID: -4646610507891287597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Money-ezgif.com-svg-to-png-converter_1
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 565
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f866edb2e0cd6e0800000000000000
+      internalID: -1811557368532136096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Money-ezgif.com-svg-to-png-converter_2
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 562
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af33fa18d9bb4090800000000000000
+      internalID: -8049135571178405981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Money-ezgif.com-svg-to-png-converter_3
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 500
+        width: 80
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fc5f3fc83c1e920800000000000000
+      internalID: 3017908235470753581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Money-ezgif.com-svg-to-png-converter_4
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 501
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b6c5ab949bd08e0800000000000000
+      internalID: -1725519355902661732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Money-ezgif.com-svg-to-png-converter_5
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 496
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee6a4a063c5f81d0800000000000000
+      internalID: -3346354610942349589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Money-ezgif.com-svg-to-png-converter_6
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 434
+        width: 80
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a15930af4ac9560800000000000000
+      internalID: 7321908487906466409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Money-ezgif.com-svg-to-png-converter_7
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 439
+        width: 80
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c5084d7b8621650800000000000000
+      internalID: 6202134775596080241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Money-ezgif.com-svg-to-png-converter_8
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 457
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68be4e683f22690a0800000000000000
+      internalID: -6875269351798936698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Money-ezgif.com-svg-to-png-converter_9
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 441
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f898a4f4283a450800000000000000
+      internalID: 6098861597454339888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Money-ezgif.com-svg-to-png-converter_0: -4646610507891287597
+      Money-ezgif.com-svg-to-png-converter_1: -1811557368532136096
+      Money-ezgif.com-svg-to-png-converter_2: -8049135571178405981
+      Money-ezgif.com-svg-to-png-converter_3: 3017908235470753581
+      Money-ezgif.com-svg-to-png-converter_4: -1725519355902661732
+      Money-ezgif.com-svg-to-png-converter_5: -3346354610942349589
+      Money-ezgif.com-svg-to-png-converter_6: 7321908487906466409
+      Money-ezgif.com-svg-to-png-converter_7: 6202134775596080241
+      Money-ezgif.com-svg-to-png-converter_8: -6875269351798936698
+      Money-ezgif.com-svg-to-png-converter_9: 6098861597454339888
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
