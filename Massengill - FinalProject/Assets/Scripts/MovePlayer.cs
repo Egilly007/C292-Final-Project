@@ -21,6 +21,11 @@ public class MovePlayer : MonoBehaviour
     public GameObject spawnpoint;
     public Animator anim;
 
+    public LineRenderer lineRenderer;
+    public float lineDuration = 0.5f;
+    public Color lineColor = Color.red;
+    public float lineWidth = 0.05f;
+
     SpriteRenderer spriteRenderer;
     Rigidbody2D rb;
 
@@ -31,6 +36,12 @@ public class MovePlayer : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+
+        if (lineRenderer != null)
+        {
+            lineRenderer.positionCount = 0;
+            lineRenderer.enabled = false;
+        }
     }
 
     void Update()
@@ -129,8 +140,10 @@ public class MovePlayer : MonoBehaviour
 
             lastHit = Physics2D.Raycast(origin, fireDirection, fireRange);
 
+            Vector3 lineEnd;
             if (lastHit.collider != null)
             {
+                lineEnd = lastHit.point;
                 Debug.DrawLine(origin, lastHit.point, Color.red, 0.5f);
                 Debug.Log("Hit: " + lastHit.collider.name);
 
@@ -156,11 +169,56 @@ public class MovePlayer : MonoBehaviour
             }
             else
             {
+                lineEnd = (Vector2)origin + fireDirection * fireRange;
                 Debug.DrawLine(origin, origin + fireDirection * fireRange, Color.red, 1f);
                 Debug.Log("No Hit");
             }
 
+            StartCoroutine(ShowShotLine(origin, lineEnd, lineDuration));
+
             lastFireTime = Time.time;
+        }
+    }
+
+    IEnumerator ShowShotLine(Vector3 start, Vector3 end, float duration)
+    {
+        if (lineRenderer != null)
+        {
+            lineRenderer.enabled = true;
+            lineRenderer.positionCount = 2;
+            lineRenderer.startWidth = lineWidth;
+            lineRenderer.endWidth = lineWidth;
+            lineRenderer.startColor = lineColor;
+            lineRenderer.endColor = lineColor;
+            lineRenderer.SetPosition(0, start);
+            lineRenderer.SetPosition(1, end);
+
+            yield return new WaitForSecondsRealtime(duration);
+
+            lineRenderer.enabled = false;
+            lineRenderer.positionCount = 0;
+        }
+        else
+        {
+            var go = new GameObject("TempShotLine");
+            var lr = go.AddComponent<LineRenderer>();
+
+            lr.material = new Material(Shader.Find("Sprites/Default"));
+
+            lr.startWidth = lineWidth;
+            lr.endWidth = lineWidth;
+            lr.startColor = lineColor;
+            lr.endColor = lineColor;
+            lr.positionCount = 2;
+            lr.useWorldSpace = true;
+
+            lr.SetPosition(0, start);
+            lr.SetPosition(1, end);
+            lr.numCapVertices = 2;
+
+            yield return new WaitForSecondsRealtime(duration);
+
+            Destroy(go);
         }
     }
 

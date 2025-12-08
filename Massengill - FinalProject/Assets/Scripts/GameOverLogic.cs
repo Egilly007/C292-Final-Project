@@ -66,4 +66,12 @@ public class GameOverLogic : MonoBehaviour
 
         gameOverShown = true;
     }
+
+    // Call this from the UI Button's OnClick to restart the current level.
+    public void RestartLevel()
+    {
+        // Ensure time is unpaused before reloading
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }
