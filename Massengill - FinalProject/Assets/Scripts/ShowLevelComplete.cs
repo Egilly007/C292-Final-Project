@@ -1,3 +1,4 @@
+using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,8 +9,6 @@ public class ShowLevelComplete : MonoBehaviour
     public GameObject backButton;
     public GameObject blackOverlay;
     public MovePlayer player;
-
-    public string mainMenuSceneName = "Main Menu";
 
     public bool pauseOnLevelComplete = true;
     bool levelCompleteShown = false;
@@ -42,16 +41,16 @@ public class ShowLevelComplete : MonoBehaviour
         }
     }
 
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (levelCompleteShown) return;
         ShowLevelCompleted();
     }
+    
 
     public void ShowLevelCompleted()
     {
-        if (levelCompleteShown) return;
-
         if (levelCompleteText != null) levelCompleteText.SetActive(true);
         if (blackOverlay != null) blackOverlay.SetActive(true);
         if (backButton != null) backButton.SetActive(true);
@@ -69,6 +68,6 @@ public class ShowLevelComplete : MonoBehaviour
     public void GoToMainMenu()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(mainMenuSceneName);
+        SceneManager.LoadScene(0);
     }
 }

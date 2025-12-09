@@ -34,6 +34,8 @@ public class MovePlayer : MonoBehaviour
     bool facingRight = true;
     bool hasIncremented = false;
 
+    public AudioClip shootSound;
+
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -139,6 +141,10 @@ public class MovePlayer : MonoBehaviour
     {
         if (Input.GetMouseButton(0) && Time.time - lastFireTime >= fireCooldown)
         {
+            if (shootSound != null)
+            {
+                AudioSource.PlayClipAtPoint(shootSound, transform.position);
+            }
             Vector2 origin = spawnpoint.transform.position;
             Vector2 fireDirection = facingRight ? Vector2.right : Vector2.left;
 
