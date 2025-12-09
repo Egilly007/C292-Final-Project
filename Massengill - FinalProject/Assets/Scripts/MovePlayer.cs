@@ -2,6 +2,8 @@ using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
+using TMPro;
 
 public class MovePlayer : MonoBehaviour
 {
@@ -28,11 +30,12 @@ public class MovePlayer : MonoBehaviour
     public Color lineColor = Color.red;
     public float lineWidth = 0.05f;
 
+    public TextMeshProUGUI moneyText;
+
     SpriteRenderer spriteRenderer;
     Rigidbody2D rb;
 
     bool facingRight = true;
-    bool hasIncremented = false;
 
     public AudioClip shootSound;
 
@@ -55,7 +58,7 @@ public class MovePlayer : MonoBehaviour
         anims();
         capVelocity();
         Shoot();
-        Debug.Log(money);
+        UpdateMoneyUI();
     }
 
     void movement()
@@ -241,7 +244,6 @@ public class MovePlayer : MonoBehaviour
         if (health <= 0)
         {
             Debug.Log("Player Died");
-            //Destroy(gameObject);
         }
     }
 
@@ -249,13 +251,19 @@ public class MovePlayer : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Money"))
         {
-            if (!hasIncremented)
-            {
-                money++;
-                hasIncremented = true;
-            }
-            Debug.Log("Player Money:" + money);
+            money++;
             Destroy(collision.gameObject);
         }
+    }
+
+    public void Addmoney()
+    {
+        money++;
+        UpdateMoneyUI();
+    }
+
+    void UpdateMoneyUI()
+    {
+        moneyText.text = "Money: $" + money.ToString();
     }
 }

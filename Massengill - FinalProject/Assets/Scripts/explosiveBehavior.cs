@@ -11,6 +11,8 @@ public class explosiveBehavior : MonoBehaviour
     public float explosionForce = 40f;
     bool triggered = false;
 
+    public AudioClip explosionSound;
+
     void Start()
     {
 
@@ -42,6 +44,7 @@ public class explosiveBehavior : MonoBehaviour
 
     public void TriggerExplosion()
     {
+        AudioSource.PlayClipAtPoint(explosionSound, transform.position);
         if (explosionVFX != null)
             Instantiate(explosionVFX, transform.position, Quaternion.identity);
 

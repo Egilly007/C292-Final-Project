@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class openDoor : MonoBehaviour
 {
+    public AudioClip openSound;
     public GameObject door;
 
     public KeyCode interactKey = KeyCode.E;
@@ -15,6 +16,7 @@ public class openDoor : MonoBehaviour
             if (door != null)
             {
                 Destroy(door);
+                AudioSource.PlayClipAtPoint(openSound, transform.position);
             }
 
             playerInRange = false;

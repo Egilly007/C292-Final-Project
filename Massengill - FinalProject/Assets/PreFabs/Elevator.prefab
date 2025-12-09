@@ -197,8 +197,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dfaf1d3755181f4b980e849d52537ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ElevatorBehavior
+  elevatorSound: {fileID: 8300000, guid: 4a46517248a947d45b16756f09c9995a, type: 3}
   trigger: {fileID: 0}
   rayDistance: 50
-  delayBeforeMove: 3
+  delayBeforeMove: 2
   arriveYOffset: -10
   playerTransform: {fileID: 0}

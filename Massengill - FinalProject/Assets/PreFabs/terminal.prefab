@@ -150,5 +150,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5526415a1c608724b956684356f6631e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  openSound: {fileID: 8300000, guid: 0cf4f27d40a06fa48943c321532b913f, type: 3}
   door: {fileID: 0}
   interactKey: 101

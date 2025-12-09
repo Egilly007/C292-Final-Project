@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 522409179}
   - component: {fileID: 522409178}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: PressESC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -621,6 +621,7 @@ GameObject:
   - component: {fileID: 979389313}
   - component: {fileID: 979389312}
   - component: {fileID: 979389311}
+  - component: {fileID: 979389314}
   m_Layer: 5
   m_Name: Level2Button
   m_TagString: Untagged
@@ -691,7 +692,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 979389312}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 979389314}
+        m_TargetAssemblyTypeName: LoadLevel2, Assembly-CSharp
+        m_MethodName: LoadLevel2Scene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &979389312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -730,6 +743,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 979389309}
   m_CullTransparentMesh: 1
+--- !u!114 &979389314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979389309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25af4c7b167b6c48ae4aa94f9d2b2d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LoadLevel2
+  sceneName: Level2
 --- !u!1 &981394698
 GameObject:
   m_ObjectHideFlags: 0
@@ -787,7 +813,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1

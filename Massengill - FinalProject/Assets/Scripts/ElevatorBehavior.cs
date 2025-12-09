@@ -3,10 +3,11 @@ using UnityEngine;
 
 public class ElevatorBehavior : MonoBehaviour
 {
+    public AudioClip elevatorSound;
     public Collider2D trigger;
 
     public float rayDistance = 50f;
-    public float delayBeforeMove = 3f;
+    public float delayBeforeMove = 2f;
     public float arriveYOffset = -10f;
 
     public RaycastHit2D lastHit;
@@ -54,6 +55,7 @@ public class ElevatorBehavior : MonoBehaviour
 
     IEnumerator MovePlayerAfterDelay(Transform player, Vector2 groundPoint, float delay)
     {
+       AudioSource.PlayClipAtPoint(elevatorSound, transform.position);
         yield return new WaitForSeconds(delay);
 
         if (player == null)
