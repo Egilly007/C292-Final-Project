@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class shopBehavior : MonoBehaviour
@@ -14,9 +15,14 @@ public class shopBehavior : MonoBehaviour
 
     public KeyCode interactKey = KeyCode.E;
 
+    public GameObject player;
+    private MovePlayer MovePlayer;
+
 
     private void Start()
     {
+        MovePlayer = player.GetComponent<MovePlayer>();
+
         blackBackground.SetActive(false);
         item1button.SetActive(false);
         item2button.SetActive(false);
@@ -60,5 +66,10 @@ public class shopBehavior : MonoBehaviour
             price1.SetActive(false);
             price2.SetActive(false);
         }
+    }
+
+    void spawnItems()
+    {
+        
     }
 }

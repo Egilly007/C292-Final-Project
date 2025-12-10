@@ -7,7 +7,7 @@ using TMPro;
 
 public class MovePlayer : MonoBehaviour
 {
-    int money = 0;
+    public int money = 0;
 
     public int health = 5;
     public float moveSpeed = 10f;
@@ -59,6 +59,7 @@ public class MovePlayer : MonoBehaviour
         capVelocity();
         Shoot();
         UpdateMoneyUI();
+        Debug.Log(money);
     }
 
     void movement()
@@ -137,6 +138,12 @@ public class MovePlayer : MonoBehaviour
         {
             canJump = true;
             anim.SetBool("Jumping", false);
+        }
+        if (collision.gameObject.CompareTag("Money"))
+        {
+            Destroy(collision.gameObject);
+            Addmoney();
+
         }
     }
 
@@ -247,18 +254,10 @@ public class MovePlayer : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Money"))
-        {
-            money++;
-            Destroy(collision.gameObject);
-        }
-    }
-
     public void Addmoney()
     {
-        money++;
+        Debug.Log("Money Collected");
+        money += 1;
         UpdateMoneyUI();
     }
 
