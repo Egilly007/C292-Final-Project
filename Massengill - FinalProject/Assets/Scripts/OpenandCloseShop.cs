@@ -1,75 +1,105 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class shopBehavior : MonoBehaviour
+public class OpenandCloseShop : MonoBehaviour
 {
     public GameObject blackBackground;
     public GameObject item1button;
     public GameObject item2button;
     public GameObject price1;
     public GameObject price2;
-
     public GameObject shopText;
-    public GameObject item1;
-    public GameObject item2;
 
-    public KeyCode interactKey = KeyCode.E;
+    public KeyCode interactKey = KeyCode.R;
+    public KeyCode closeKey = KeyCode.Q;
 
     public GameObject player;
-    private MovePlayer MovePlayer;
+    private MovePlayer movePlayer;
 
+    bool playerInRange = false;
+    bool shopOpen = false;
 
-    private void Start()
+    void Start()
     {
-        MovePlayer = player.GetComponent<MovePlayer>();
-
         blackBackground.SetActive(false);
         item1button.SetActive(false);
         item2button.SetActive(false);
-        shopText.SetActive(false);
         price1.SetActive(false);
         price2.SetActive(false);
+        shopText.SetActive(false);
+
+        movePlayer = player.GetComponent<MovePlayer>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(interactKey))
+        if (playerInRange && Input.GetKeyDown(interactKey))
         {
-            OpenShop();
+            ToggleShop();
         }
 
-        CloseShop();
+        if (shopOpen && Input.GetKeyDown(closeKey))
+        {
+            CloseShop();
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            playerInRange = true;
+            player = collision.gameObject;
+            movePlayer = player.GetComponent<MovePlayer>();
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            playerInRange = false;
+
+            if (shopOpen)
+                CloseShop();
+
+            player = null;
+            movePlayer = null;
+        }
+    }
+
+    void ToggleShop()
+    {
+        if (shopOpen) CloseShop();
+        else OpenShop();
     }
 
     void OpenShop()
     {
         Time.timeScale = 0f;
+        shopOpen = true;
+
         blackBackground.SetActive(true);
         item1button.SetActive(true);
         item2button.SetActive(true);
-        shopText.SetActive(true);
         price1.SetActive(true);
         price2.SetActive(true);
+        shopText.SetActive(true);
 
+        movePlayer.enabled = false;
     }
 
     void CloseShop()
     {
-        if(Input.GetKeyDown(KeyCode.Q))
-        {
-            Time.timeScale = 1f;
-            blackBackground.SetActive(false);
-            item1button.SetActive(false);
-            item2button.SetActive(false);
-            shopText.SetActive(false);
-            price1.SetActive(false);
-            price2.SetActive(false);
-        }
-    }
+        Time.timeScale = 1f;
+        shopOpen = false;
 
-    void spawnItems()
-    {
-        
+        blackBackground.SetActive(false);
+        item1button.SetActive(false);
+        item2button.SetActive(false);
+        price1.SetActive(false);
+        price2.SetActive(false);
+        shopText.SetActive(false);
+
+        movePlayer.enabled = true;
     }
 }

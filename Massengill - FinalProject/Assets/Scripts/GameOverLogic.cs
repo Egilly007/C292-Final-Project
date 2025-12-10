@@ -43,7 +43,7 @@ public class GameOverLogic : MonoBehaviour
             }
         }
 
-        if (player != null && player.health <= 0)
+        if (player != null && player.Health <= 0)
         {
             ShowGameOver();
         }

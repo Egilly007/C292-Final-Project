@@ -9,7 +9,8 @@ public class MovePlayer : MonoBehaviour
 {
     public int money = 0;
 
-    public int health = 5;
+    public int Health = 10;
+
     public float moveSpeed = 10f;
     public float jumpForce = 7f;
     public float maxSpeed = 4f;
@@ -41,6 +42,7 @@ public class MovePlayer : MonoBehaviour
 
     void Start()
     {
+
         spriteRenderer = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
@@ -59,7 +61,6 @@ public class MovePlayer : MonoBehaviour
         capVelocity();
         Shoot();
         UpdateMoneyUI();
-        Debug.Log(money);
     }
 
     void movement()
@@ -245,10 +246,10 @@ public class MovePlayer : MonoBehaviour
     public void TakeDamage(int damage)
     {
         int rand = Random.Range(0, 3);
-        health -= damage;
-        Debug.Log("Player has" + health);
+        Health -= damage;
+        Debug.Log("Player has" + Health);
 
-        if (health <= 0)
+        if (Health <= 0)
         {
             Debug.Log("Player Died");
         }
