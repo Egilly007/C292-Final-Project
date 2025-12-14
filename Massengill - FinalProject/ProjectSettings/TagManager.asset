@@ -9,6 +9,8 @@ TagManager:
   - Bullet
   - Distructable
   - Money
+  - FireRateUpgrade
+  - ShotgunUpgrade
   layers:
   - Default
   - TransparentFX

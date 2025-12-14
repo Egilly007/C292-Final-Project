@@ -8,6 +8,8 @@ public class OpenandCloseShop : MonoBehaviour
     public GameObject price1;
     public GameObject price2;
     public GameObject shopText;
+    public GameObject SpawnItem1;
+    public GameObject SpawnItem2;
 
     public KeyCode interactKey = KeyCode.R;
     public KeyCode closeKey = KeyCode.Q;
@@ -101,5 +103,24 @@ public class OpenandCloseShop : MonoBehaviour
         shopText.SetActive(false);
 
         movePlayer.enabled = true;
+    }
+
+    public void Spawn1Item()
+    {
+        if (movePlayer.money >= 10)
+        {
+            Instantiate(SpawnItem1, transform.position, Quaternion.identity);
+            movePlayer.money -= 10;
+
+        }
+    }
+
+    public void Spawn2Item()
+    {
+        if (movePlayer.money >= 5)
+        {
+            Instantiate(SpawnItem2, transform.position, Quaternion.identity);
+            movePlayer.money -= 5;
+        }
     }
 }

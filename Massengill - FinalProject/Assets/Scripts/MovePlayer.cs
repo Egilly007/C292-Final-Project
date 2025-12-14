@@ -146,6 +146,12 @@ public class MovePlayer : MonoBehaviour
             Addmoney();
 
         }
+
+        if (collision.gameObject.CompareTag("FireRateUpgrade"))
+        {
+            Destroy(collision.gameObject);
+            fireCooldown -= 0.05f;
+        }
     }
 
     void Shoot()
